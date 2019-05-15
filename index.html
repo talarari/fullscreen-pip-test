@@ -17,6 +17,7 @@
 <script>
 var elem = document.getElementById("myvideo");
 function openFullscreen() {
+  elem.play()
   if (elem.requestFullscreen) {
     elem.requestFullscreen();
   } else if (elem.mozRequestFullScreen) { /* Firefox */
